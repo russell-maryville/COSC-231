@@ -1,6 +1,9 @@
+import { useRouter } from "next/router";
 import Button from "../components/Button";
 
 export default function Index() {
+	const router = useRouter();
+
 	return (
 		<>
 			<div>
@@ -19,7 +22,7 @@ export default function Index() {
 					<li>Search for your contacts in your contact list.</li>
 					<li>Share the contacts with the share button.</li>
 				</ol>
-				<Button>Get Started</Button>
+				<Button onClick={() => router.push("/capture")}>Scan</Button>
 			</div>
 			<style jsx>{`
 				h1,

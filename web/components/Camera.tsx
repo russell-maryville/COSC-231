@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { createWorker } from "tesseract.js";
+import Button from "./Button";
 
 type CameraProps = {
 	onCapture: (img: string, text: string[]) => void;
@@ -61,7 +62,7 @@ export default function Camera({ onCapture }: CameraProps) {
 		<>
 			<video ref={video} autoPlay />
 			<canvas ref={canvas} style={{ display: "none" }} />
-			<button onClick={capture}>Capture</button>
+			<Button onClick={capture}>Scan</Button>
 		</>
 	);
 }

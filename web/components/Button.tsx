@@ -1,9 +1,12 @@
 import React from "react";
 
-export default function Button({ children }: React.PropsWithChildren<{}>) {
+export default function Button({
+	children,
+	...props
+}: React.ButtonHTMLAttributes<HTMLButtonElement>) {
 	return (
 		<>
-			<button>{children}</button>
+			<button {...props}>{children}</button>
 			<style jsx>{`
 				button {
 					background: #d9d9d9;
