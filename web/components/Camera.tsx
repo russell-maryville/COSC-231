@@ -33,8 +33,8 @@ export default function Camera({ onCapture }: CameraProps) {
 			return null;
 		let width = settings.width || 0;
 		let height = settings.height || 0;
-		width /= 3; // Downscale for better performance
-		height /= 3;
+		// width /= 2; // Downscale for better performance
+		// height /= 2;
 		canvas.current.width = width;
 		canvas.current.height = height;
 		context?.drawImage(video.current, 0, 0, width, height);
@@ -55,7 +55,7 @@ export default function Camera({ onCapture }: CameraProps) {
 					result.data.lines.map((line) => line.text)
 				)
 			)
-			.catch(() => alert("error: could not recognize text in image."));
+			.catch((err) => alert(`error: could not recognize text in image.\n${err}`));
 	};
 
 	return (
