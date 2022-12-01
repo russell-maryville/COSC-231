@@ -63,6 +63,13 @@ export default function Camera({ onCapture }: CameraProps) {
 			<video ref={video} autoPlay />
 			<canvas ref={canvas} style={{ display: "none" }} />
 			<Button onClick={capture}>Scan</Button>
+			<style jsx>{`
+				video {
+					margin: 0 auto;
+					padding-bottom: 2em;
+				}
+
+			`}</style>
 		</>
 	);
 }

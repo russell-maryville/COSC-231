@@ -15,6 +15,9 @@ export default function Button({
 					text-transform: uppercase;
 					font-size: medium;
 					width: fit-content;
+					display: block;
+					margin: 0 auto;
+					
 				}
 			`}</style>
 		</>
