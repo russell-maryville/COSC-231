@@ -1,5 +1,5 @@
-## COSC-231
-Project Management- KeepSake Documentation
+## Maryville University COSC-231 Fall 2022
+Project Management- KeepSake Documentation 
 
 
 [KeepSake Documentation_Team Petunias.docx](https://github.com/russell-maryville/COSC-231/files/10180613/KeepSake.Documentation_Team.Petunias.docx)
