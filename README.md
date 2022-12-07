@@ -16,7 +16,7 @@ KeepSake is a web application that can also run on mobile devices. It is an appl
 
 The Keepsake application is for those possessing unorganized business cards that need an easy way to store the information. Keepsake is used for managing advertisements and organizing connections, allowing the consumer to catalog contact info from a possible employer and business opportunity. 
 
-## Team Members
+## Team Petunias Members
 
 Kyle McGinnis
 
