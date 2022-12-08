@@ -20,11 +20,11 @@ The Keepsake application is for those possessing unorganized business cards that
 
 Kyle McGinnis
 
-Ryan Johnson
-
 Kenneth Russell
 
 Benjamin Ryan
+
+Ryan Johnson
 
 
 
